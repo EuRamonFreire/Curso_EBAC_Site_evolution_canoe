@@ -1,0 +1,259 @@
+ *{
+    padding: 0;
+     margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(5, 5, 5);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo img {
+height: 24px;
+}
+
+.img-topo-site {
+   border: 50px;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.66);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 40px; 
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn-contato button:hover, form .btn-enviar input:hover {
+    box-shadow: 0px 0px 5px #ffffffa5;
+    transform: scale(1.05);
+}
+
+section .topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+}
+.topo-do-site h1{
+    color: #fff;
+    font-size: 64px;
+    line-height: 53px;
+
+}
+
+.topo-do-site p{
+    color: #ffffff77;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 20px;
+}
+
+.topo-do-site .img-topo-site img {
+    height: 480px;
+    border-radius: 30px;
+}
+
+.Sobre .img-sobre img {
+    margin-top: 100px;
+    height: 480px;
+    border-radius: 30px
+}
+
+.Sobre .txt-sobre {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 70px;
+    margin-left: 55px;
+}
+
+.Sobre p{
+    color: #ffffff77;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 20px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.Sobre h2 {
+    font-size: 33px;
+}
+
+section.canoas {
+    padding: 80px 4%;
+}
+
+
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px #ffffff1d;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+section.portfolio h2{
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 24px;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #000000bc;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+section.formulario{
+    padding: 80px 4%; 
+}
+
+section.formulario h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 24px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    }
+
+form input, form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #fff;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.interface .logo-footer img {
+    height: 12px;
+    text-align: center ;
+}
+
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px #ffffff1d;
+}
+
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #242424;
+}
+
